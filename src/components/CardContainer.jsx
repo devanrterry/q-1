@@ -1,6 +1,6 @@
 import React from 'react';
 import './CardContainer.css';
-import './Card'
+import Card from './Card'
 
 export default function CardContainer(props){
     return (
@@ -10,3 +10,4 @@ export default function CardContainer(props){
         </div>
     )
 }
+

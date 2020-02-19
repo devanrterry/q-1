@@ -4,7 +4,9 @@ import './Card.css';
 export default function Card(props){
     return (
         <div className='container'>
-            <h1>Hello, exampleComponent</h1>
+            <h1>Card</h1>
+            <p>card content</p>
         </div>
     )
 }
+
