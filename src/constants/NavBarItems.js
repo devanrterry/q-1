@@ -8,5 +8,10 @@ export default {
             title: "About",
             path: "/about",
             key: "about",
-        }   
+        },
+        signin: {
+            title: "Sign In",
+            path: "/sign",
+            key: "signin"
+        }  
 };

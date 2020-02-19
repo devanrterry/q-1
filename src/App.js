@@ -8,7 +8,7 @@ import Login from './components/Login';
 function App() {
 	return (
 		<div className="App">
-			<NavBar navItems={['home', 'about']} />
+			<NavBar navItems={['home', 'about', 'signin']} />
 			<Switch>
 				<Route exact path="/" component={ExampleComponent} />
 				<Route exact path="/about" render={() => {
