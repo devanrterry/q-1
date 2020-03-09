@@ -7,6 +7,7 @@ export default function CardContainer(props){
         <div className='container'>
             <h1>Card Container</h1>
             <Card/>
+            <h2> Test</h2>
         </div>
     )
 }
